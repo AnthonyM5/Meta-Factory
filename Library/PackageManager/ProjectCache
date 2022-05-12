@@ -984,6 +984,7 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.1
     - 2.0.2
+    - 2.1.0-pre.1
     compatible:
     - 0.0.6-preview
     - 0.9.0-preview
@@ -1005,6 +1006,7 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.1
     - 2.0.2
+    - 2.1.0-pre.1
     verified: 
   dependencies:
   - name: com.unity.inputsystem
