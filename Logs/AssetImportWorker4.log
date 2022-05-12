@@ -1,0 +1,344 @@
+Unity Editor version:    2021.3.2f1 (d6360bedb9a0)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3.1 (Build 21E258)
+Darwin version:          21.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/Users/anthony.mai/Development/meta-skills2
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+56125
+Successfully changed project path to: /Users/anthony.mai/Development/meta-skills2
+/Users/anthony.mai/Development/meta-skills2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 176.14 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 11.29 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/anthony.mai/Development/meta-skills2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+S34J55x preferred device: AMD Radeon Pro 560X (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 560X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 560X (high power)
+Initializing Metal device caps: AMD Radeon Pro 560X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56543
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.005074 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 120.07 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.66 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.360 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1361ms)
+		BeginReloadAssembly (232ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (900ms)
+			LoadAssemblies (235ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (474ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.022140 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/anthony.mai/Development/meta-skills2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/anthony.mai/Development/meta-skills2/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 105.28 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.67 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.869 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1870ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1554ms)
+			LoadAssemblies (208ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (446ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (746ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (485ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.35 ms.
+Unloading 4078 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (21.3 KB). Loaded Objects now: 4544.
+Memory consumption went from 268.4 MB to 268.4 MB.
+Total: 4.837545 ms (FindLiveObjects: 0.416647 ms CreateObjectMapping: 0.270631 ms MarkObjects: 4.092033 ms  DeleteObjects: 0.057125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 16.64 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.98 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (22.9 KB). Loaded Objects now: 4544.
+Memory consumption went from 187.2 MB to 187.2 MB.
+Total: 7.287470 ms (FindLiveObjects: 0.651659 ms CreateObjectMapping: 0.526601 ms MarkObjects: 6.051283 ms  DeleteObjects: 0.056169 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11843.980478 seconds.
+  path: Assets/MASH Virtual/Table/Prefab
+  artifactKey: Guid(ef33f687ebe0519408417a45f300965d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/MASH Virtual/Table/Prefab using Guid(ef33f687ebe0519408417a45f300965d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '833882ee8aa40669d0f19f1d5601ee28') in 0.094849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/MASH Virtual/Table/Texutre/Parking_Table_Table_New_MetallicSmoothness.png
+  artifactKey: Guid(d82b153e3f1c6c24cbbba94421c45d9b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/MASH Virtual/Table/Texutre/Parking_Table_Table_New_MetallicSmoothness.png using Guid(d82b153e3f1c6c24cbbba94421c45d9b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'cfeb76ab408b4cdedea22d215ad53162') in 1.485583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/MASH Virtual/Table/Post Processing
+  artifactKey: Guid(a7e8c9695fe74ad4fbb2af2173da94c5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/MASH Virtual/Table/Post Processing using Guid(a7e8c9695fe74ad4fbb2af2173da94c5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '6c868e5e72372b353922f370a9129c4c') in 0.011314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/MASH Virtual/Demo
+  artifactKey: Guid(956e90a3e4ac6574a9806b60d8cc8e66) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/MASH Virtual/Demo using Guid(956e90a3e4ac6574a9806b60d8cc8e66) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'cf5add006be6267b905c4c9910a9609a') in 0.014330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/MASH Virtual/Table/Texutre/Plane_phong1_Normal.png
+  artifactKey: Guid(588d74ab7afec9f4184e30732efe0c02) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/MASH Virtual/Table/Texutre/Plane_phong1_Normal.png using Guid(588d74ab7afec9f4184e30732efe0c02) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'ce39e9a652ce8d2b46b259aef2dc655d') in 0.082548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/MASH Virtual/Table
+  artifactKey: Guid(939b062c349685943a09913307a0efbc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/MASH Virtual/Table using Guid(939b062c349685943a09913307a0efbc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '42d56ae843dc2434949011beec989dac') in 0.011694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/MASH Virtual/Table/Texutre/Parking_Table_Table_Old_MetallicSmoothness.png
+  artifactKey: Guid(557a443626ed5ad4f9cdfe1b23576768) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/MASH Virtual/Table/Texutre/Parking_Table_Table_Old_MetallicSmoothness.png using Guid(557a443626ed5ad4f9cdfe1b23576768) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'e18b1c9a3f69fe01ce71e5fd236773af') in 0.017094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/MASH Virtual/Demo/Table Demo/LightingData.asset
+  artifactKey: Guid(e32c89f2c3c761947a139ad8c071f6a2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/MASH Virtual/Demo/Table Demo/LightingData.asset using Guid(e32c89f2c3c761947a139ad8c071f6a2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '11810a24f6b8095fa8d7ca1b01b1fe25') in 0.148476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.543131 seconds.
+  path: Packages/com.unity.timeline/package.json
+  artifactKey: Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/package.json using Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8bfccb78abbe7dce246704718d398b') in 0.158644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.838264 seconds.
+  path: Assets/MASH Virtual/Table
+  artifactKey: Guid(939b062c349685943a09913307a0efbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Table using Guid(939b062c349685943a09913307a0efbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28544efdd6f76e7fe834227f504d8314') in 0.003384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.284082 seconds.
+  path: Assets/MASH Virtual/Table/Material
+  artifactKey: Guid(2384be8930896eb4ba08eeb7aa206bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Table/Material using Guid(2384be8930896eb4ba08eeb7aa206bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6badbf3c6b7e7dccf5974471d25766') in 0.004792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084989 seconds.
+  path: Assets/MASH Virtual/Table/Material/Plane.mat
+  artifactKey: Guid(88db475fd13ccdf4ea08c4ca3594dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Table/Material/Plane.mat using Guid(88db475fd13ccdf4ea08c4ca3594dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88465f2441d83ec59b47d1be41ccb0a5') in 0.768965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.735843 seconds.
+  path: Assets/MASH Virtual/Demo/Table Demo.unity
+  artifactKey: Guid(03c4854480771fe4cb022b619668f1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Demo/Table Demo.unity using Guid(03c4854480771fe4cb022b619668f1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa11a70edfc02fb579e64c55cc16feea') in 0.004395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 113.595426 seconds.
+  path: Assets/MASH Virtual/Demo/Table Demo
+  artifactKey: Guid(7aa022a03073d25448504586d0202ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Demo/Table Demo using Guid(7aa022a03073d25448504586d0202ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734ad4461895359090f4a71d9d90c2bc') in 0.003978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037417 seconds.
+  path: Assets/MASH Virtual/Demo/Table Demo/LightingData.asset
+  artifactKey: Guid(e32c89f2c3c761947a139ad8c071f6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Demo/Table Demo/LightingData.asset using Guid(e32c89f2c3c761947a139ad8c071f6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a94f18937b193499dcd3ee413096e8') in 0.012381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/MASH Virtual/Demo/Table Demo/ReflectionProbe-0.exr
+  artifactKey: Guid(3714ff6559263914fbcfda013c1c8cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Demo/Table Demo/ReflectionProbe-0.exr using Guid(3714ff6559263914fbcfda013c1c8cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8514cd08c44b9c1156d824b734afa0f0') in 0.298284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.460696 seconds.
+  path: Assets/MASH Virtual/Table/Mesh
+  artifactKey: Guid(401d942c3429658489928073f60a54e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Table/Mesh using Guid(401d942c3429658489928073f60a54e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea5cf721519b321ca0b97b3fcb799e7') in 0.003935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048428 seconds.
+  path: Assets/MASH Virtual/Table/Mesh/Table.fbx
+  artifactKey: Guid(08d5439121a07f544bdaaa816bb04c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Table/Mesh/Table.fbx using Guid(08d5439121a07f544bdaaa816bb04c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4207c079230c50aa03fbfc085a6e55ae') in 0.156818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 238.790301 seconds.
+  path: Assets/MASH Virtual/Table/Prefab/Table_New.prefab
+  artifactKey: Guid(7d72879ba54738d42887f83754ca3b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Table/Prefab/Table_New.prefab using Guid(7d72879ba54738d42887f83754ca3b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aba5ff9a1470bb4622ccfcaee728b19') in 0.217585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.218852 seconds.
+  path: Assets/MASH Virtual/Table/Texutre/Parking_Table_Table_New_AlbedoTransparency.png
+  artifactKey: Guid(f66f931405cea194cadf5b5f81143924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Table/Texutre/Parking_Table_Table_New_AlbedoTransparency.png using Guid(f66f931405cea194cadf5b5f81143924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b893ae73e57f04b343722967a47bd9') in 0.032164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/MASH Virtual/Table/Texutre/Plane_phong1_MetallicSmoothness.png
+  artifactKey: Guid(37ddf6bd6548a274b9ea52f29289d0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Table/Texutre/Plane_phong1_MetallicSmoothness.png using Guid(37ddf6bd6548a274b9ea52f29289d0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3232406e31b5396dc0759ccac766c6') in 0.021586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/MASH Virtual/Table/Texutre/Parking_Table_Table_Old_AlbedoTransparency.png
+  artifactKey: Guid(8f68c1c9776b78144a82796fbfa3c013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Table/Texutre/Parking_Table_Table_Old_AlbedoTransparency.png using Guid(8f68c1c9776b78144a82796fbfa3c013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da525d6c586aeb5d5e6bc0c509dd2fad') in 0.026318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/MASH Virtual/Table/Texutre/Parking_Table_Table_Old_MetallicSmoothness.png
+  artifactKey: Guid(557a443626ed5ad4f9cdfe1b23576768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Table/Texutre/Parking_Table_Table_Old_MetallicSmoothness.png using Guid(557a443626ed5ad4f9cdfe1b23576768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e6895cb3f0d7b910b2f0b9fe29e104') in 0.034384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/MASH Virtual/Table/Texutre/Plane_phong1_Normal.png
+  artifactKey: Guid(588d74ab7afec9f4184e30732efe0c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Table/Texutre/Plane_phong1_Normal.png using Guid(588d74ab7afec9f4184e30732efe0c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e9e199e6a8fdebc16bec34f95f3ca5') in 0.090326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/MASH Virtual/Table/Texutre/Plane_phong1_AlbedoTransparency.png
+  artifactKey: Guid(d4de1d36c48b0544abebf259804acdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Table/Texutre/Plane_phong1_AlbedoTransparency.png using Guid(d4de1d36c48b0544abebf259804acdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bf4804e9cdd1453c2843db1b9d0697') in 0.019750 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
