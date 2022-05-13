@@ -34,6 +34,9 @@ namespace MetaFactory.Events
         {
             unityEventResponse.Invoke(item);
         }
+
+        // I believe we can call something like GameObject.SetActive to toggle the active element i.e: the UI panels.
+
     }
 
     }
